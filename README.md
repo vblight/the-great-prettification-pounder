@@ -2,7 +2,7 @@
 
 Los Santos has been driving the same tired-looking delivery trucks since 2013. This pack gives the original Pounder a fresh coat of paint with updated textures and a selection of liveries, while keeping it recognisably GTA V.
 
-**FiveM replacement resource · Version 1.2.0 · By Vile**
+**FiveM replacement resource** · **Version 1.2.0** · **By Vile**
 
 ## What's included
 
@@ -14,11 +14,11 @@ Los Santos has been driving the same tired-looking delivery trucks since 2013. T
 ## Installation
 
 1. Download the repository as a ZIP and extract it.
-2. Copy the `vile_pounder` folder into your FiveM server's `resources` directory.
+2. Copy the `vile_pounder` folder into your FiveM server's `resources` directory. Keep the folder name as `vile_pounder`.
 3. Add `ensure vile_pounder` to your `server.cfg`.
 4. Restart your server, or start the resource from the server console.
 
-This replaces the original Pounder; it does not add a separate spawn name. Check for other resources replacing the same vehicle before installing.
+This replaces the original Pounder vehicles; it does not add separate spawn names. Check for other resources replacing the same vehicles before installing.
 
 ## Liveries
 
@@ -58,8 +58,14 @@ While driving `pounder`, use:
 
 `/pounderlivery` accepts numbers from 1 to 23. Number 23 is the plain paint-through option. `/poundercheck` reports the current vehicle's livery information.
 
+## Notes
+
+- Livery names and numbering are taken from the included `client.lua` script.
+- Vehicle appearance and livery availability depend on the files loading correctly in your server.
+- No screenshots are included yet; previews will be added from the actual vehicle files or in-game captures.
+
 ## Credits
 
 Created by **Vile** as part of **The Great Prettification**.
 
-GTA V and FiveM belong to their respective owners. This is an unofficial community vehicle replacement.
+GTA V and FiveM are the property of their respective owners. This is an unofficial community vehicle replacement.
